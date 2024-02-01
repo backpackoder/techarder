@@ -24,15 +24,15 @@ export default function Home() {
     <>
       <Hero />
       <Testimonials />
+      <Features />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Features />
       <Pricing />
       <Contact />
-      <ScrollUp />
       {/* <Video /> */}
       {/* <Brands /> */}
       {/* <Blog /> */}
+      <ScrollUp />
     </>
   );
 }

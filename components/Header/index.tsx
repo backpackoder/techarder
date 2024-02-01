@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -6,7 +7,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
-const Header = () => {
+function Header() {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -150,6 +151,10 @@ const Header = () => {
                         )}
                       </li>
                     ))}
+
+                    <div className="flex items-center">
+                      <ThemeToggler />
+                    </div>
                   </ul>
                 </nav>
               </div>
@@ -159,6 +164,6 @@ const Header = () => {
       </header>
     </>
   );
-};
+}
 
 export default Header;

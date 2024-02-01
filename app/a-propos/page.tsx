@@ -1,6 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Features from "@/components/Features";
 
 import { Metadata } from "next";
 
@@ -17,6 +18,8 @@ const AboutPage = () => {
         pageName="Qui sommes-nous ?"
         description="Faisons connaissance."
       />
+
+      <Features />
       <AboutSectionOne />
       <AboutSectionTwo />
     </>
