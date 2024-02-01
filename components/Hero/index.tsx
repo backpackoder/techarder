@@ -16,7 +16,7 @@ const Hero = () => {
               data-wow-delay=".2s"
             >
               <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Il est temps d'augmenter votre visibilité sur internet
+                Il est temps d{"'"}augmenter votre visibilité sur internet
               </h1>
               <p className="mb-12 text-base !leading-relaxed sm:text-lg md:text-xl">
                 Avec <span className="font-bold">TecHarder</span>, obtenez votre
